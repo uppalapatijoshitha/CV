@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-colour:#F0F8FF;
+        }
+        header {
+            background-color: #14532D;
+            colour:White;
+            text-align:center;
+            padding:50px 20px;
+        }
+        header h1 {
+            font-size:55px;
+            margin-bottom:30px;
+        }
+        nav a{
+            colour: #FACC15;
+            text-decoration:none;
+            font-size:24px;
+            margin:0 15px;
+        }
+        nav a:hover {
+            colour:white;
+            text-decoration:underline;
+        }
+        /* Enquiry Form */
+
+form{
+    margin-top:20px;
+}
+
+label{
+    font-size:18px;
+    font-weight:bold;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    margin-bottom:15px;
+    border:1px solid #cccccc;
+    border-radius:5px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+input[type="submit"]{
+    width:120px;
+    background-color:#86ec94;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#d3e7de;
+}
+
+input[type="reset"]{
+    width:120px;
+    background-color:#bee71d;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+input[type="reset"]:hover{
+    background-color:#616161;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th, td{
+    border:1px solid #cccccc;
+    padding:15px;
+    text-align:left;
+}
+
+th{
+    background-color:#dbef58;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color:#f5f5f5;
+}
+
+tr:hover{
+    background-color:#E3F2FD;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1> CURRICULUM VITAE </h1>
+        <nav>
+            <a href="#Educational qualification">Educational Qualification</a>
+            <a href="#skills">Skills</a>
+            <a href="#details">Personal Details</a>
+            <a href="#enquiry">Enquiry Form</a>
+        </nav>
+    </header>
+    <section id="education">
+        <h2>Educational Qualifications</h2>
+        <p> 
+            My educational qualifications are listed below in table formate
+        </p>
+        <table>
+
+
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year of Completion</th>
+                <th>Percentage</th>
+            </tr>
+
+
+            <tr> 
+                <td> B.Tech</td>
+                <td>KL University</td>
+                <td>2025-2029</td>
+                <td>8.5 CGPA</td>
+            </tr>
+
+
+            <tr>
+                <td>Intermediate</td>
+                <td>srichaitanya educational institution</td>
+                <td>2023-2025</td>
+                <td>80%</td>
+            </tr>
+
+
+            <tr>
+                <td>SSC</td>
+                <td>Kumar E.M school</td>
+                <td>2023</td>
+                <td>80%</td>
+            </tr>
+
+
+        </table>
+
+    </section>
+    <section id="details">
+        <h2>Personal Details</h2>
+        <ul>
+            <li><b>Name:</b> UPPALAPATI Joshitha</li>
+            <li><b>ID.NO:</b> 2500031149</li>
+            <li><b>Date of Birth:</b> 20 october 2007</li>
+            <li><b>Department:</b> CSE </li
+
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li> <b>Programming Languages: Python, Java, C++</b></li>
+            <p> I have basic knowledge of programming languages such as C, Java, Python, HTML, and CSS. I enjoy learning new technologies and continuously improving my programming and problem-solving skills by practicing coding and developing small projects. I have a strong foundation in programming concepts and algorithms, which allows me to write efficient and optimized code. I am also familiar with data structures and their implementation in different programming languages.</p>
+            <li> <b>Web Development: HTML, CSS, python</b></li>
+            <p> I have experience in web development using HTML, CSS, and python. I have built several small web applications and websites, which has helped me gain practical knowledge of front-end development.I am also familiar with responsive web design principles and have experience in creating mobile-friendly websites. I enjoy experimenting with different design elements and layouts to create visually appealing and user-friendly web applications.</p>
+            <li><b>Version Control: Git, GitHub</b></li>
+            <p> I have experience using Git and GitHub for version control and collaboration. I am familiar with basic Git commands such as commit, push, pull, and merge, and I have used GitHub to host my projects and collaborate with other developers.</p>
+        </ul>
+    </section>
+    
+    <!-- ================= Enquiry Form ================= -->
+
+<section id="enquiry">
+
+    <h2>Enquiry Form</h2>
+
+    <p>If you have any queries, please fill out the form below.</p>
+
+    <form>
+
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your full name"><br><br>
+
+        <label>Email Address</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel" placeholder="Enter your phone number"><br><br>
+
+        
+
+        <label>Message</label><br>
+        <textarea rows="5" placeholder="Write your message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</section>
+    
+</body>
+</html>
